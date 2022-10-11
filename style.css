@@ -1,0 +1,42 @@
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: greenyellow;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  border-radius: 40px;
+  outline: none;
+  width:400px;
+  height: 80px;
+  background: green;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  transition: 0.2s;
+  margin-bottom: 20px;
+
+
+}
+
+.btn:hover {
+ transform: translateY(-5px);
+ box-shadow: 0 10px 0 darkgreen;
+ 
+}
+
+.btn:active{
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 darkgreen;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
